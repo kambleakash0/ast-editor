@@ -1,0 +1,39 @@
+[project]
+name = "ast-editor-mcp"
+version = "2.0.1"
+description = "MCP Server for AST-targeted code editing"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.10.0",
+    "tree-sitter>=0.25.0",
+    "tree-sitter-python>=0.25.0",
+    "tree-sitter-javascript>=0.25.0",
+    "tree-sitter-typescript>=0.23.0",
+    "tree-sitter-json>=0.24.0",
+    "tree-sitter-yaml>=0.7.0",
+    "tree-sitter-toml>=0.7.0",
+    "tree-sitter-c>=0.24.0",
+    "tree-sitter-cpp>=0.23.0",
+    "tree-sitter-ruby>=0.23.0",
+    "tree-sitter-go>=0.25.0",
+    "tree-sitter-java>=0.23.0"
+]
+authors = [{ name = "Akash Kamble", email = "kambleakash0@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+ast-editor-mcp = "ast_editor.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ast_editor"]
+
+
+[project.urls]
+Homepage = "https://github.com/kambleakash0/ast-editor"
+Repository = "https://github.com/kambleakash0/ast-editor"
+Issues = "https://github.com/kambleakash0/ast-editor/issues"

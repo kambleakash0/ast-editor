@@ -1,0 +1,41 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "kambleakash0"
+  ],
+  "name": "ast-editor",
+  "description": "AST-targeted code editing MCP server with 28 surgical tools for structural edits across 11 languages (Python, JS, TS, C, C++, Ruby, Go, Java, JSON, YAML, TOML), built on tree-sitter — replaces brittle search/replace with byte-correct edits keyed by symbol names.",
+  "keywords": [
+    "ast-editor",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ast",
+    "abstract-syntax-tree",
+    "tree-sitter",
+    "code-editing",
+    "structural-editing",
+    "surgical-edits",
+    "refactoring",
+    "code-refactoring",
+    "llm-tools",
+    "ai-coding",
+    "agent-tools",
+    "claude-code",
+    "multi-language",
+    "python",
+    "javascript",
+    "typescript",
+    "golang",
+    "ruby",
+    "java",
+    "c",
+    "cpp",
+    "json",
+    "yaml",
+    "toml",
+    "code-generation",
+    "developer-tools",
+    "token-efficient"
+  ]
+}
