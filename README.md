@@ -2,6 +2,8 @@
 
 A robust, language-agnostic Model Context Protocol (MCP) server that provides AI coding agents with the ability to edit files surgically via Abstract Syntax Trees (AST) instead of relying on token-heavy, brittle search-and-replace or diff operations.
 
+[![ast-editor MCP server](https://glama.ai/mcp/servers/kambleakash0/ast-editor/badges/card.svg)](https://glama.ai/mcp/servers/kambleakash0/ast-editor)
+
 ## Why AST Edits?
 
 Every non-AST edit format — search/replace, unified diff, whole-file rewrite — requires the model to copy text *perfectly* from a file it saw once. One whitespace mismatch on a 4,000-line file and the edit fails. AST edits sidestep the problem entirely: the model names the target (e.g., `LRUCache.get`) and provides the new code; the parser figures out where it lives.
