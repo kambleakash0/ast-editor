@@ -2,8 +2,6 @@
 
 When editing `.py`, `.js`, `.ts`, `.c`, `.cpp`, `.rb`, `.go`, `.java`, `.json`, `.yaml`, or `.toml` files, do NOT use the `edit` tool. Use the `ast-editor` MCP server: its 28 tools edit code and config by symbol name.
 
-The README (https://github.com/kambleakash0/agent-skills/tree/main/mcp-servers/ast-editor) has the full reference.
-
 **Picking a tool - always start here:**
 
 1. **Find the target.** Call `list_symbols` first: every name it lists is a target (`Class.method`, `A.B.m`, fields and variables too). Names are case-sensitive.
