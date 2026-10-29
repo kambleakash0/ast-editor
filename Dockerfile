@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 
 WORKDIR /app
 
-RUN git clone https://github.com/kambleakash0/ast-editor . && git checkout b1adcd6da791756b84772c3d765073731839dfc0
+RUN git clone https://github.com/kambleakash0/ast-editor . && git checkout 00c29c47c29fab1ff26d823406821a52c146d643
 
 RUN (uv sync)
 
